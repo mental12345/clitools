@@ -1,0 +1,36 @@
+
+#General setting
+set linenumbers
+set mouse
+set smooth
+set nohelp
+set softwrap
+set nonewlines
+set locking
+#Mapping
+bind ^z undo main
+bind ^y redo main
+bind ^f whereis main
+bind F4 exit main
+bind F2 savefile main
+bind F3 findnext main
+include "~/nanorc/arduino.nanorc"
+include "~/nanorc/awk.nanorc"
+include "~/nanorc/batch.nanorc"
+include "~/nanorc/cmake.nanorc"
+include "~/nanorc/c.nanorc"
+include "~/nanorc/conf.nanorc"
+include "~/nanorc/Dockerfile.nanorc"
+include "~/nanorc/git.nanorc"
+include "~/nanorc/go.nanorc"
+include "~/nanorc/hcl.nanorc"
+include "~/nanorc/json.nanorc"
+include "~/nanorc/makefile.nanorc"
+include "~/nanorc/octave.nanorc"
+include "~/nanorc/powershell.nanorc"
+include "~/.nanorc/python.nanorc"
+include "~/.nanorc/rust.nanorc"
+include "~/.nanorc/xml.nanorc"
+include "~/.nanorc/yaml.nanorc"
+include "~/.nanorc/zsh.nanorc"
+
